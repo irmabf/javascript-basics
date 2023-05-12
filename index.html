@@ -11,5 +11,44 @@
       </div>
     </header>
     <div id="app"></div>
+    <script>
+      // Using const means that no rebinding will happen
+
+      // var a = 1
+      // a = 2
+      // console.log(a)
+      // let b = 3
+      // b = 4
+      // console.log(b)
+      // const c = 5
+      // c = 6
+      // console.log(c)
+
+
+      // Lets allow us to rebind
+
+      let a = {
+        name: "Irma"
+      }
+
+      a = "Blanco"
+
+      // const b = {
+      //   name: "Irma"
+      // }
+
+      // b = "Blanco"
+
+      console.log(a)
+
+    const b = {
+      name: "Irma"
+    }
+
+    // Reassignment
+    b.name = "IB"
+    console.log(b)
+
+    </script>
   </body>
 </html>
